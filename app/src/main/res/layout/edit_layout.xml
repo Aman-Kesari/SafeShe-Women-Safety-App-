@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="350dp"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="10dp">
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Enter the number"
+        android:textStyle="bold"
+        android:textSize="20dp"
+        android:textColor="@color/black"/>
+    <EditText
+        android:id="@+id/num_edited"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:hint="Enter here"
+        android:inputType="number"
+        android:singleLine="true"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:textColor="@color/black"
+        android:textSize="17dp" />
+    <Button
+        android:id="@+id/btn_savedNumber"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Save it!"
+        android:textAllCaps="false"
+        android:layout_gravity="center"/>
+
+</LinearLayout>

@@ -10,6 +10,16 @@ SafeShe is an emergency Android application designed to enhance the safety of wo
 - 🌐 **In-App Web Search** – Search directly from the app using WebView
 - 📞 **Emergency Services** – Quick dial to police, ambulance, or helpline
 
+  
+## 📘 Project Description
+
+This application was developed in Android Studio using Java and integrates various Android components such as WebView, SharedPreferences, RecyclerView, and Intents. The app ensures all emergency features are accessible within a single tap, reducing response time in critical situations.
+
+SafeShe is designed with a minimal interface to reduce cognitive load under stress. Users can save emergency contacts, access live safety updates, and use web search for nearby help. SharedPreferences securely stores emergency information locally, avoiding the need for a backend.
+
+The project focuses on empowering individuals who frequently commute alone, live in high-risk areas, or need an additional layer of digital safety.
+
+
 ## 💡 Motivation
 
 Women's safety remains a critical concern globally. SafeShe was developed to empower users to act quickly and confidently during emergencies.
@@ -44,3 +54,11 @@ Women's safety remains a critical concern globally. SafeShe was developed to emp
 - Integrated third-party APIs
 - Managed real-time UI with state handling
 - Built modular, responsive Android components
+
+  
+## 🛠️ Future Enhancements
+
+- Voice-activated SOS feature
+- Integration with police/NGO databases
+- AI-based risk detection for specific zones
+- Offline SMS-based emergency alert system
